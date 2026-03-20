@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void print() {
-    printf("Welcom to Computer Programming 03 Lab!\n");
+    printf("Welcome to Computer Programming 03 Lab!\n");
 }
 int square(int n) {
     return n * n;
