@@ -8,7 +8,11 @@ void my_sum(char a, int count , ...) {
     if (a == 'S') {
         for (int i=0;i<count;i++){
             char* HW = va_arg(ap, char*);
-            printf("%s ", HW);
+            if (i == count-1) {
+                printf("%s", HW);
+            } else {
+                printf("%s ", HW);
+            }
         }
         printf("\n");
     } else if (a == 'C') {
